@@ -1,0 +1,11 @@
+/* DEBUG SETTIGS */
+
+.header {
+  background: #000;
+}
+
+.box {
+  background: #1aa;
+  padding: 20px;
+  border: solid black 1px
+}
