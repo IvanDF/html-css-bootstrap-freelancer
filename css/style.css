@@ -69,3 +69,8 @@
 .about-txt {
   height: 300px;
 }
+
+/* CONTACT */
+.contact .box-1 {
+  height: 500px;
+}
