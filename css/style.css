@@ -1,11 +1,32 @@
-/* DEBUG SETTIGS */
+/* GENERAL SETTINGS */
+
+/* DEBUG SETTINGS */
+.box {
+  padding: 10px;
+  padding: 15px;
+  border: solid #11e 1px;
+  border-radius: 5px
+}
+/* DEBUG SETTINGS */
+
+/* HEADER */
 
 .header {
-  background: #000;
+  background: #2c3e50;
+  color: #fff;
 }
 
-.box {
-  background: #1aa;
-  padding: 20px;
-  border: solid black 1px
+/* JUMBOTRON */
+.jumbotron {
+  position: relative;
+  height: 680px;
+  background: #1abc9c;
+}
+
+.jumbotron .box {
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
