@@ -1,5 +1,15 @@
 /* GENERAL SETTINGS */
 
+body {
+  font-size: 20px
+}
+
+/* TYPOGRAPHY */
+
+h3 {
+  font-size: 48px
+}
+
 /* DEBUG SETTINGS */
 .box-container {
   padding: 15px;
@@ -7,15 +17,10 @@
 
 .box {
   padding: 10px;
-  border: solid #11e 1px;
+  border: solid #1abc9c 3px;
   border-radius: 5px
 }
 
-.box-1 {
-  padding: 10px;
-  border: solid #111 1px;
-  border-radius: 5px
-}
 /* /DEBUG SETTINGS */
 
 /* UTILITIES */
@@ -36,6 +41,11 @@
   color: #fff;
 }
 
+.navbar {
+  padding: 20px 0;
+  margin-bottom: 0;
+}
+
 /* JUMBOTRON */
 .jumbotron {
   position: relative;
@@ -51,11 +61,15 @@
   transform: translate(-50%, -50%);
 }
 
+.jumbotron .box h1 {
+  font-size: 64px
+}
+
 /* MAIN */
 
 
 /* PORTFOLIO */
-.portfolio .box-1 {
+.portfolio .box {
   height: 200px;
 }
 
@@ -66,12 +80,20 @@
   padding: 50px 0;
 }
 
-.about-txt {
-  height: 300px;
+.about-info {
+  font-size: 20px
+}
+
+.about-btn a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #fff;
+  border: solid 2px #fff;
+  border-radius: 5px
 }
 
 /* CONTACT */
-.contact .box-1 {
+.contact .box {
   height: 500px;
 }
 
@@ -82,7 +104,7 @@
   padding-top: 30px;
 }
 
-.footer .box-1 {
+.footer .box {
   margin: 10px 0;
   height: 200px;
 }
