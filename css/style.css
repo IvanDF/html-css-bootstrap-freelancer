@@ -1,5 +1,9 @@
 /* GENERAL SETTINGS */
 
+i {
+  font-size: 32px;
+  margin: 10px 0 25px;
+}
 
 /* HEADER */
 .main-header {
@@ -52,9 +56,7 @@
 }
 
 .jumbotron-content i {
-  position: relative;
-  font-size: 32px;
-  margin: 10px 0 25px;
+  color: #fff;
 }
 
 .jumbotron-content p {
@@ -62,27 +64,47 @@
   font-size: 24px;
 }
 
-/* .jumbotron-content i::before {
-  content: '';
-  position: absolute;
-  right: 150%;
-  top: 50%;
-  width: 150px;
-  height: 4px;
-  border-radius: 4px;
-  background: #fff;
+/* MAIN */
+/* PORTFOLIO */
+.portfolio h3 {
+  font-size: 48px;
 }
 
-.jumbotron-content i::after {
-  content: '';
+.portfolio i {
+  color: #000;
+}
+
+.portfolio-box {
+  position: relative;
+  margin: 10px 0;
+  border-radius: 15px;
+  background: #1abc9c;
+}
+
+.portfolio-box img {
+  border-radius: 15px;
+  transition: filter .7s
+}
+
+.portfolio-box i {
+  opacity: 0;
+  color: #fff;
+  font-size: 64px;
   position: absolute;
-  left: 150%;
   top: 50%;
-  width: 150px;
-  height: 4px;
-  border-radius: 4px;
-  background: #fff;
-} */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .5s;
+}
+
+.portfolio-box:hover img {
+  filter: opacity(.1);
+}
+
+.portfolio-box:hover i {
+  opacity: 1;
+  transition: .5s .3s;
+}
 
 /* MEDIA QUERY */
 
