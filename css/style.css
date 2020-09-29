@@ -114,7 +114,12 @@ p {
   margin-top: 18px;
   background: #1abc9c;
   border: none;
-  border-radius: 8px
+  border-radius: 8px;
+  transition: background .5s
+}
+
+.main-header .navbar-toggle:hover {
+  background: #159a80;
 }
 
 .main-header .navbar-toggle .hamburger-icon {
@@ -187,7 +192,7 @@ p {
   color: #fff;
   font-size: 64px;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: .5s;
@@ -200,6 +205,7 @@ p {
 .portfolio-box:hover i {
   opacity: 1;
   transition: .5s .3s;
+  top: 50%;
 }
 
 /* ABOUT */
