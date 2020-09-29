@@ -1,12 +1,18 @@
 /* GENERAL SETTINGS */
 
+
 /* HEADER */
+.main-header {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
 .main-header .navbar {
+  margin: 0;
   height: 70px;
   background: #2c3e50;
   border: none;
   border-radius: 0;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .main-header .navbar-brand {
@@ -32,6 +38,52 @@
   line-height: 40px
 }
 
+/* JUMBOTRON */
+.jumbotron {
+  background: #1abc9c;
+}
+
+.jumbotron-content img {
+  height: 240px;
+}
+
+.jumbotron-content h1 {
+  font-size: 64px;
+}
+
+.jumbotron-content i {
+  position: relative;
+  font-size: 32px;
+  margin: 10px 0 25px;
+}
+
+.jumbotron-content p {
+  position: relative;
+  font-size: 24px;
+}
+
+/* .jumbotron-content i::before {
+  content: '';
+  position: absolute;
+  right: 150%;
+  top: 50%;
+  width: 150px;
+  height: 4px;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.jumbotron-content i::after {
+  content: '';
+  position: absolute;
+  left: 150%;
+  top: 50%;
+  width: 150px;
+  height: 4px;
+  border-radius: 4px;
+  background: #fff;
+} */
+
 /* MEDIA QUERY */
 
 /* MOBILE SM */
@@ -44,6 +96,9 @@
 
 /* TABLET */
 @media screen and (min-width: 992px) {
+
+  /* GENERAL SETTINGS */
+
 
   /* HEADER */
 
