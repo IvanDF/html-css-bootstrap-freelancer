@@ -9,6 +9,22 @@
   margin-bottom: 25px;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mb-75 {
+  margin-bottom: 75px;
+}
+
+.mt-75 {
+  margin-top: 75px;
+}
+
 /* BUTTONS */
 
 .btn i,
@@ -60,6 +76,10 @@ p {
   font-family: 'Lato' , sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* HEADER */
 .main-header {
   font-family: 'Montserrat', sans-serif;
@@ -80,6 +100,10 @@ p {
   font-size: 20px;
 }
 
+.main-header .navbar-brand:hover {
+  color: #fff;
+}
+
 .main-header .navbar-toggle {
   margin-top: 18px;
   background: #1abc9c;
@@ -94,7 +118,12 @@ p {
 .main-header .navbar-nav > li > a {
   font-size: 16px;
   color: #fff;
-  line-height: 40px
+  line-height: 40px;
+  transition: color .5s
+}
+
+.main-header .navbar-nav > li > a:hover {
+  color: #1abc9c;
 }
 
 /* JUMBOTRON */
@@ -120,10 +149,12 @@ p {
 }
 
 /* MAIN */
+
 .main h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 48px;
 }
+
 /* PORTFOLIO */
 
 .portfolio i {
@@ -206,7 +237,53 @@ p {
   padding: 0 0 30px;
 }
 
+/* FOOTER */
+.footer {
+  background: #2c3e50;
+  color: #fff;
+}
 
+.footer h4 {
+  font-size: 24px;
+}
+
+.footer p,
+.footer a,
+.footer i {
+  font-size: 20px;
+}
+
+.footer i {
+  height: 50px;
+  width: 50px;
+  line-height: 45px;
+  color: #fff;
+  border: solid 2px #fff;
+  border-radius: 50%;
+  margin-left: 10px;
+  transition: background .5s,
+              color .5s
+}
+
+.footer i:hover {
+  background: #fff;
+  color: #000;
+}
+
+.footer-legal {
+  background: #1a252f;
+  padding: 20px 0;
+}
+
+.footer-info a {
+  color: #1abc9c;
+  transition: color .5s
+}
+
+.footer-info a:hover {
+  color: #159a80;
+  text-decoration: underline;
+}
 /* MEDIA QUERY */
 
 /* MOBILE SM */
