@@ -1,8 +1,55 @@
 /* GENERAL SETTINGS */
 
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+
+/* BUTTONS */
+
+.btn {
+  padding: 16px 28px;
+  border-radius: 10px
+
+}
+
+.btn-primary {
+  background: #1abc9c;
+
+}
+
+.btn-outline {
+  color: #fff;
+  background: none;
+  border: solid 2px #fff;
+}
+
+.btn-outline i,
+.btn-outline {
+  font-size: 20px
+}
+
+.btn-outline i {
+  margin-right: 10px;
+}
+
+.btn-outline:hover {
+  color: #000;
+  background: #fff;
+  border: solid 2px #fff
+}
+
+/* TYPOGRAPHY */
 i {
   font-size: 32px;
-  margin: 10px 0 25px;
+}
+
+p {
+  font-family: 'Lato' , sans-serif;
 }
 
 /* HEADER */
@@ -65,10 +112,11 @@ i {
 }
 
 /* MAIN */
-/* PORTFOLIO */
-.portfolio h3 {
+.main h3 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 48px;
 }
+/* PORTFOLIO */
 
 .portfolio i {
   color: #000;
@@ -104,6 +152,17 @@ i {
 .portfolio-box:hover i {
   opacity: 1;
   transition: .5s .3s;
+}
+
+/* ABOUT */
+.about {
+  padding: 80px 0;
+  background: #1abc9c;
+  color: #fff;
+}
+
+.about p {
+  font-size: 20px;
 }
 
 /* MEDIA QUERY */
