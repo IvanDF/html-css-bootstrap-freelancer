@@ -1,5 +1,6 @@
 /* GENERAL SETTINGS */
 
+/* MARGINS */
 .mb-50 {
   margin-bottom: 50px;
 }
@@ -8,33 +9,40 @@
   margin-bottom: 25px;
 }
 
-
 /* BUTTONS */
+
+.btn i,
+.btn {
+  font-size: 20px
+}
 
 .btn {
   padding: 16px 28px;
   border-radius: 10px
+}
 
+.btn i {
+  margin-right: 10px;
 }
 
 .btn-primary {
   background: #1abc9c;
+  border: hidden;
+  transition: .5s
+}
 
+.btn-primary:hover {
+  color: #fff;
+  background-color: #159a80;
+  border-color: #148f77;
 }
 
 .btn-outline {
   color: #fff;
   background: none;
   border: solid 2px #fff;
-}
-
-.btn-outline i,
-.btn-outline {
-  font-size: 20px
-}
-
-.btn-outline i {
-  margin-right: 10px;
+  transition: background .5s,
+              color .8s
 }
 
 .btn-outline:hover {
@@ -164,6 +172,40 @@ p {
 .about p {
   font-size: 20px;
 }
+
+/* CONTACT */
+
+/* FORM */
+.contact label {
+  opacity: 0
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact input[type="tel"],
+.contact textarea {
+  padding: 30px 0;
+  font-size: 24px;
+  border: none;
+  border-bottom: solid 2px gray;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+}
+
+.contact input[type="text"]:focus,
+.contact input[type="email"]:focus,
+.contact input[type="tel"]:focus,
+.contact textarea:focus {
+  box-shadow: none;
+  border-bottom: solid 2px #2c3e50;
+}
+
+.contact textarea {
+  height: 200px;
+  padding: 0 0 30px;
+}
+
 
 /* MEDIA QUERY */
 
