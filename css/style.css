@@ -5,7 +5,7 @@
   margin-bottom: 8px;
   display: inline-block;
   max-width: 100%;
-  width: 120px;
+  width: 100px;
   height: 4px;
   border-radius: 20px;
 }
@@ -103,7 +103,7 @@ p {
 .main-header .navbar-brand {
   line-height: 40px;
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .main-header .navbar-brand:hover {
@@ -148,7 +148,7 @@ p {
 }
 
 .jumbotron-content h1 {
-  font-size: 64px;
+  font-size: 58px;
 }
 
 .jumbotron-content i {
@@ -283,7 +283,7 @@ p {
   color: #fff;
   border: solid 2px #fff;
   border-radius: 50%;
-  margin-left: 10px;
+  margin: 10px;
   transition: background .5s,
               color .5s
 }
@@ -315,8 +315,15 @@ p {
 
 /* MOBILE SM */
 @media screen and (min-width: 768px) {
+  /* GENERAL */
+  .star-dash {
+    width: 120px;
+  }
 
   /* HEADER */
+  .jumbotron-content h1 {
+    font-size: 64px;
+  }
 
 }
 
