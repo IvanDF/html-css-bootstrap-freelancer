@@ -1,0 +1,63 @@
+/* GENERAL SETTINGS */
+
+/* HEADER */
+.main-header .navbar {
+  height: 70px;
+  background: #2c3e50;
+  border: none;
+  border-radius: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-header .navbar-brand {
+  line-height: 40px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.main-header .navbar-toggle {
+  margin-top: 18px;
+  background: #1abc9c;
+  border: none;
+  border-radius: 8px
+}
+
+.main-header .navbar-toggle .icon-bar {
+  background: #fff;
+}
+
+.main-header .navbar-nav > li > a {
+  font-size: 16px;
+  color: #fff;
+  line-height: 40px
+}
+
+/* MEDIA QUERY */
+
+/* MOBILE SM */
+@media screen and (min-width: 768px) {
+
+  /* HEADER */
+
+}
+
+
+/* TABLET */
+@media screen and (min-width: 992px) {
+
+  /* HEADER */
+
+  .main-header .navbar {
+    height: 110px;
+  }
+
+  .main-header .navbar-brand {
+    line-height: 70px;
+    font-size: 28px;
+  }
+
+  .main-header .navbar-nav > li > a {
+    line-height: 70px;
+  }
+
+}
