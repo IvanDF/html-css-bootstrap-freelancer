@@ -75,6 +75,7 @@
 }
 
 /* TYPOGRAPHY */
+
 i {
   font-size: 32px;
   margin-left: 10px;
@@ -83,10 +84,6 @@ i {
 
 p {
   font-family: 'Lato' , sans-serif;
-}
-
-a {
-  text-decoration: none;
 }
 
 /* HEADER */
@@ -273,6 +270,10 @@ a {
 .footer a,
 .footer i {
   font-size: 20px;
+}
+
+.footer a {
+  text-decoration: none;
 }
 
 .footer i {
