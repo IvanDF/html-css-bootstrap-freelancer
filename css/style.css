@@ -9,7 +9,7 @@ body {
 .dashed-star {
   width: 400px;
   max-width: 100%;
-  margin: 20px auto;
+  margin: 25px auto;
 }
 
 .dashed-star .star-dash {
@@ -186,7 +186,7 @@ p {
 }
 
 .jumbotron-content h1 {
-  font-size: 58px;
+  font-size: 54px;
 }
 
 .jumbotron-content p {
@@ -313,7 +313,7 @@ p {
   border: solid 2px #fff;
   border-radius: 50%;
   transition: background .5s,
-              color .5s
+             color .5s
 }
 
 .footer i:hover {
