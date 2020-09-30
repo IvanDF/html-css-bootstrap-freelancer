@@ -21,7 +21,7 @@
     <nav class="navbar navbar-default text-uppercase">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle bg-green collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             MENU
             <span class="sr-only">Toggle navigation</span>
             <div class="hamburger-icon">
@@ -43,16 +43,16 @@
       </div>
     </nav>
     <!-- JUMBOTRON -->
-    <div class="jumbotron mb-50 text-center">
+    <div class="jumbotron p-y80 bg-green text-center">
       <div class="jumbotron-content">
-        <img class="mb-25" src="./img/avatar.svg" alt="">
-        <h1 class="mb-25" class="text-uppercase">Start Bootstrap</h1>
+        <img src="./img/avatar.svg" alt="">
+        <h1 class="text-uppercase">Start Bootstrap</h1>
         <div class="dashed-star">
           <span class="star-dash light"></span>
-          <i class="fas fa-star mb-25"></i>
+          <i class="fas fa-star"></i>
           <span class="star-dash light"></span>
         </div>
-        <p class="mb-25">Graphic Artist - Web Designer - Illustrator</p>
+        <p>Graphic Artist - Web Designer - Illustrator</p>
       </div>
     </div>
   </header>
@@ -60,49 +60,49 @@
   <!-- MAIN -->
   <main class="main">
     <!-- PORTFOLIO -->
-    <section class="portfolio mb-50">
+    <section class="portfolio mb-50 p-y80">
       <div class="portfolio-title text-center">
-        <h3 class="">PORTFOLIO</h3>
+        <h3>PORTFOLIO</h3>
         <div class="dashed-star">
           <span class="star-dash dark"></span>
-          <i class="fas fa-star mb-25 dark"></i>
+          <i class="fas fa-star dark"></i>
           <span class="star-dash dark"></span>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="portfolio-box">
+            <div class="portfolio-box bg-green">
               <img class="img-responsive" src="./img/cabin.png" alt="">
               <i class="fas fa-plus"></i>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="portfolio-box">
+            <div class="portfolio-box bg-green">
               <img class="img-responsive" src="./img/cake.png" alt="">
               <i class="fas fa-plus"></i>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="portfolio-box">
+            <div class="portfolio-box bg-green">
               <img class="img-responsive" src="./img/circus.png" alt="">
               <i class="fas fa-plus"></i>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="portfolio-box">
+            <div class="portfolio-box bg-green">
               <img class="img-responsive" src="./img/game.png" alt="">
               <i class="fas fa-plus"></i>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="portfolio-box">
+            <div class="portfolio-box bg-green">
               <img class="img-responsive" src="./img/safe.png" alt="">
               <i class="fas fa-plus"></i>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="portfolio-box">
+            <div class="portfolio-box bg-green">
               <img class="img-responsive" src="./img/submarine.png" alt="">
               <i class="fas fa-plus"></i>
             </div>
@@ -111,17 +111,17 @@
       </div>
     </section>
     <!-- ABOUT -->
-    <section class="about mb-50">
+    <section class="about bg-green mb-50 p-y80">
       <div class="about-title text-center">
-        <h3 class="mb-25">ABOUT</h3>
+        <h3>ABOUT</h3>
         <div class="dashed-star">
           <span class="star-dash light"></span>
-          <i class="fas fa-star mb-25"></i>
+          <i class="fas fa-star"></i>
           <span class="star-dash light"></span>
         </div>
       </div>
       <div class="container">
-        <div class="row mb-25">
+        <div class="row">
           <div class="col-md-4 col-md-offset-2">
             <div class="row">
               <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-12 col-md-offset-0">
@@ -147,12 +147,12 @@
       </div>
     </section>
     <!-- CONTACT -->
-    <section class="contact mb-50">
+    <section class="contact mb-50 p-y80">
       <div class="contact-title text-center">
         <h3 class="">CONTACT ME</h3>
         <div class="dashed-star">
           <span class="star-dash dark"></span>
-          <i class="fas fa-star mb-25 dark"></i>
+          <i class="fas fa-star dark"></i>
           <span class="star-dash dark"></span>
         </div>
       </div>
@@ -163,18 +163,18 @@
               <form class="contact-form">
                 <div class="form-group">
                   <label for="name">Name</label>
-                  <input type="text" class="form-control" id="name" placeholder="Name">
+                  <input type="text" class="form-control" id="name" required placeholder="Name">
                 </div>
                 <div class="form-group">
                   <label for="email">Email address</label>
-                  <input type="email" class="form-control" id="email" placeholder="Email address">
+                  <input type="email" class="form-control" id="email" required placeholder="Email address">
                 </div>
                 <div class="form-group">
                   <label for="phone">Phone number</label>
-                  <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+                  <input type="tel" class="form-control" id="phone" pattern="[0–9]" required placeholder="Phone Number">
                 </div>
                 <label for="textarea">Message</label>
-                <textarea class="form-control mb-25" placeholder="Message"></textarea>
+                <textarea class="form-control mb-25" required placeholder="Message"></textarea>
                 <button type="submit" class="btn btn-primary">Send</button>
               </form>
             </div>
@@ -187,15 +187,15 @@
   <!-- FOOTER -->
   <footer class="footer text-center">
     <div class="container">
-      <div class="row footer-content">
+      <div class="row footer-content p-y80">
         <div class="col-xs-12 col-md-4">
-          <div class="footer-where mb-50">
+          <div class="footer-where mb-25">
             <h4 class="text-uppercase">Location</h4>
             <p>2215 John Daniel Drive <br> Clark, MO 65243</p>
           </div>
         </div>
         <div class="col-xs-12 col-md-4">
-          <div class="footer-social mb-50">
+          <div class="footer-social mb-25">
             <h4 class="text-uppercase">Around the web</h4>
             <a href="#">
               <i class="fab fa-facebook-f"></i>
@@ -212,7 +212,7 @@
           </div>
         </div>
         <div class="col-xs-12 col-md-4">
-          <div class="footer-info mb-50">
+          <div class="footer-info">
             <h4 class="text-uppercase">About Freelancer</h4>
             <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <br>
               <a href="#">Start Bootstrap</a>.

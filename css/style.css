@@ -1,35 +1,46 @@
 /* GENERAL SETTINGS */
+body {
+  padding-top: 70px;
+}
+
+/* UTILITIES */
 
 /* STAR ICON */
-.star-dash {
-  margin-bottom: 8px;
-  display: inline-block;
+
+.dashed-star {
+  width: 400px;
   max-width: 100%;
-  width: 100px;
+  margin: 20px auto;
+}
+
+.dashed-star .star-dash {
+  display: inline-block;
+  width: 35%;
   height: 4px;
+  margin-bottom: 8px;
   border-radius: 20px;
 }
 
-.star-dash.light {
-  background-color: #fff;
+.dashed-star i {
+  display: inline-block;
+  width: 20%;
+  font-size: 32px;
+}
+
+.dashed-star i.light {
   color: #fff;
 }
 
-.star-dash.dark {
-  background-color: #2c3e50;
-  color: #2c3e50;
+.dashed-star .star-dash.light {
+  background: #fff;
 }
+
 .dashed-star i.dark {
   color: #2c3e50;
 }
 
-/* MARGINS */
-.mb-50 {
-  margin-bottom: 50px;
-}
-
-.mb-25 {
-  margin-bottom: 25px;
+.dashed-star .star-dash.dark {
+  background: #2c3e50;
 }
 
 /* BUTTONS */
@@ -75,15 +86,36 @@
 }
 
 /* TYPOGRAPHY */
-
-i {
-  font-size: 32px;
-  margin-left: 10px;
-  margin-right: 10px;
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 p {
   font-family: 'Lato' , sans-serif;
+}
+
+/* LAYOUT */
+
+.bg-green {
+  background: #1abc9c;
+  color: #fff;
+}
+
+/* MARGINS */
+.p-y80 {
+  padding: 80px 0;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
 }
 
 /* HEADER */
@@ -93,6 +125,11 @@ p {
 }
 
 .main-header .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
   margin: 0;
   height: 70px;
   background: #2c3e50;
@@ -112,7 +149,6 @@ p {
 
 .main-header .navbar-toggle {
   margin-top: 18px;
-  background: #1abc9c;
   border: none;
   border-radius: 8px;
   transition: background .5s
@@ -144,20 +180,14 @@ p {
 }
 
 /* JUMBOTRON */
-.jumbotron {
-  background: #1abc9c;
-}
 
 .jumbotron-content img {
   height: 240px;
+  margin-bottom: 20px;
 }
 
 .jumbotron-content h1 {
   font-size: 58px;
-}
-
-.jumbotron-content i {
-  color: #fff;
 }
 
 .jumbotron-content p {
@@ -179,7 +209,6 @@ p {
   position: relative;
   margin: 10px 0;
   border-radius: 15px;
-  background: #1abc9c;
 }
 
 .portfolio-box img {
@@ -188,13 +217,14 @@ p {
 }
 
 .portfolio-box i {
-  opacity: 0;
-  color: #fff;
-  font-size: 64px;
   position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: #fff;
+  cursor: pointer;
+  opacity: 0;
+  font-size: 64px;
   transition: .5s;
 }
 
@@ -209,12 +239,6 @@ p {
 }
 
 /* ABOUT */
-.about {
-  padding: 80px 0;
-  background: #1abc9c;
-  color: #fff;
-}
-
 .about h3 {
   color: #fff;
 }
@@ -289,7 +313,7 @@ p {
   color: #fff;
   border: solid 2px #fff;
   border-radius: 50%;
-  margin: 10px;
+  margin: 5px;
   transition: background .5s,
               color .5s
 }
@@ -297,10 +321,6 @@ p {
 .footer i:hover {
   background: #fff;
   color: #000;
-}
-
-.footer-content {
-  padding: 70px 0;
 }
 
 .footer-legal {
@@ -321,10 +341,6 @@ p {
 
 /* MOBILE SM */
 @media screen and (min-width: 768px) {
-  /* GENERAL */
-  .star-dash {
-    width: 120px;
-  }
 
   /* HEADER */
   .jumbotron-content h1 {
@@ -338,7 +354,9 @@ p {
 @media screen and (min-width: 992px) {
 
   /* GENERAL SETTINGS */
-
+  body {
+    padding-top: 100px;
+  }
 
   /* HEADER */
 
@@ -353,6 +371,10 @@ p {
 
   .main-header .navbar-nav > li > a {
     line-height: 70px;
+  }
+
+  .jumbotron {
+    padding: 200px 0 100px;
   }
 
 }
