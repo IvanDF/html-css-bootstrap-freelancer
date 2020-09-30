@@ -4,7 +4,6 @@ body {
 }
 
 /* UTILITIES */
-
 /* STAR ICON */
 
 .dashed-star {
@@ -148,7 +147,7 @@ p {
 }
 
 .main-header .navbar-toggle {
-  margin-top: 18px;
+  margin-top: 15px;
   border: none;
   border-radius: 8px;
   transition: background .5s
